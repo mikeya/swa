@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import styled from "styled-components";
 import ArrowIcon from "../components/Arrow";
-import { breakpoints, colors, fonts } from "../constants";
+import { breakpoints, colors } from "../constants";
 
 const Wrapper = styled.section`
   position: relative;

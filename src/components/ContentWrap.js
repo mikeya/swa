@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { breakpoints, colors } from "../constants";
+import { breakpoints } from "../constants";
 
 const Wrapper = styled.article`
   height: 100%;

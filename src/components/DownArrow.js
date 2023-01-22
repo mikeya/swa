@@ -50,7 +50,7 @@ function DownArrow({ className }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [handleScroll]);
   return (
     <Wrapper
       gone={scroll > 60 || gone}

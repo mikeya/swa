@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Title from "../components/Title";
-import { breakpoints, colors, fonts } from "../constants";
+import { breakpoints, colors } from "../constants";
 import strengthIcon from "../assets/strengthIcon.png";
 import yogaIcon from "../assets/yogaIcon.png";
 import { motion } from "framer-motion";

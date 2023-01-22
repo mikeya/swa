@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import styled from "styled-components";
-import { breakpoints, fonts } from "../constants";
+import { fonts } from "../constants";
 
 const Wrapper = styled(motion.p)`
   font-family: ${fonts.familyText};

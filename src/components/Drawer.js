@@ -84,7 +84,8 @@ const Drawer = ({ open, setOpen }) => {
       </NavList>
       <a
         href="https://www.instagram.com/stronger_with_adrienne"
-        target={"_blank"}
+        target="_blank"
+        rel="noreferrer"
       >
         <Insta />
       </a>
