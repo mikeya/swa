@@ -52,7 +52,7 @@ const ContentWrap = styled("article")`
   }
 `;
 
-const Subtitle = styled.p`
+const Subtitle = styled.h2`
   font-family: ${fonts.familyText};
   font-size: var(--font-size-subtitle);
   max-width: 550px;

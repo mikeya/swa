@@ -133,7 +133,7 @@ const Navbar = () => {
       <Icon src={logo} alt="" />
       <NavList>
         <ListItem>
-          <ListLink href="#home">HOME</ListLink>
+          <ListLink href="#home" rel="canonical">HOME</ListLink>
         </ListItem>
         <ListItem>
           <ListLink href="#about">ABOUT</ListLink>
