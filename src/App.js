@@ -31,13 +31,15 @@ const GlobalStyle = createGlobalStyle`
 
 
 
-  @font-face {
+@font-face {
   font-family: Collegiate;
   src: url(${collegiate});
+  font-display: swap
 }
 @font-face {
   font-family: Lato;
   src: url(${lato});
+  font-display: swap
 }
 html {
   --font-size-text: 1.5rem;
